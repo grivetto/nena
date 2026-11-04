@@ -11,23 +11,8 @@ interface LinksProps {
 
 const FLAG_INFO: Record<Language, { code: string; flag: string; label: string }> = {
   it: { code: "IT", flag: "https://flagcdn.com/w40/it.png", label: "Switch to English" },
-  en: { code: "EN", flag: "https://flagcdn.com/w40/gb.png", label: "เปลี่ยนเป็นภาษาไทย" },
-    es: {
-    code: "ES",
-    flag: "https://flagcdn.com/w40/es.png",
-    alt: "Español",
-    nextLabel: "Cambiar a Tailandés",
-  },
-    es: {
-    role: "Artista Aérea y Acróbata",
-    bio: "Actuaciones acrobáticas, telas aéreas y workshops en toda Europa.",
-    links: [
-      { title: "Galería de Actuaciones", subtitle: "Ver fotos y vídeos de directo" },
-      { title: "Próximos Workshops", subtitle: "Reserva tu plaza de formación" },
-      { title: "Contacto Profesional", subtitle: "Eventos, festivales y galas" }
-    ],
-    backHome: "Volver al Sitio Web Principal",
-  },
+  en: { code: "EN", flag: "https://flagcdn.com/w40/gb.png", label: "Cambiar a Español" },
+  es: { code: "ES", flag: "https://flagcdn.com/w40/es.png", label: "เปลี่ยนเป็นภาษาไทย" },
   th: { code: "TH", flag: "https://flagcdn.com/w40/th.png", label: "Passa all'Italiano" },
 };
 
@@ -73,6 +58,32 @@ const translations = {
       {
         title: "Selvanea Shop",
         description: "Etsy Store",
+        url: "https://www.etsy.com/shop/selvanea/?etsrc=sdt&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAQVh4tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadBk58knG9H_q-kcBJ3SLFHly70Uwc-TtsEAVYg3qn66wPnGV7wMwkQ85Ctgg_aem_ZkFHYwnFsCZzDi_W0XOeQQ",
+        icon: <ShoppingBag size={20} />,
+      },
+      {
+        title: "Serena Travel Planner",
+        description: "Instagram",
+        url: "https://www.instagram.com/serena.travel.planner?utm_source=qr&igsh=MWVzOGZmb29jcWV3eQ==",
+        icon: <Plane size={20} />,
+      },
+    ],
+  },
+  es: {
+    backToHome: "Volver al Inicio",
+    headingPrefix: "Mis",
+    headingHighlight: "Enlaces",
+    subtitle: "Descubre mis otros proyectos",
+    links: [
+      {
+        title: "Selvanea Artvintage",
+        description: "Instagram",
+        url: "https://www.instagram.com/selvanea_artvintage?utm_source=qr&igsh=bW9keXdvNDVzdDVx",
+        icon: <Instagram size={20} />,
+      },
+      {
+        title: "Selvanea Shop",
+        description: "Tienda Etsy",
         url: "https://www.etsy.com/shop/selvanea/?etsrc=sdt&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAQVh4tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAadBk58knG9H_q-kcBJ3SLFHly70Uwc-TtsEAVYg3qn66wPnGV7wMwkQ85Ctgg_aem_ZkFHYwnFsCZzDi_W0XOeQQ",
         icon: <ShoppingBag size={20} />,
       },

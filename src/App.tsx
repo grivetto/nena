@@ -15,48 +15,8 @@ import {
 
 const FLAG_INFO: Record<Language, { code: string; flag: string; label: string }> = {
   it: { code: "IT", flag: "https://flagcdn.com/w40/it.png", label: "Switch to English" },
-  en: { code: "EN", flag: "https://flagcdn.com/w40/gb.png", label: "เปลี่ยนเป็นภาษาไทย" },
-    es: {
-    code: "ES",
-    flag: "https://flagcdn.com/w40/es.png",
-    alt: "Español",
-    nextLabel: "Cambiar a Tailandés",
-  },
-    es: {
-    nav: {
-      about: "Sobre Mí",
-      disciplines: "Disciplinas",
-      gallery: "Galería",
-      contact: "Contacto",
-      links: "Enlaces y Redes",
-    },
-    hero: {
-      badge: "Artes Escénicas Aéreas",
-      title1: "La Poesía",
-      title2: "en el Aire.",
-      desc: "Elegancia, dinamismo y suspensión gravitatoria en espectáculos visuales inolvidables.",
-      cta: "Ver Portfolio",
-    },
-    about: {
-      title: "Trayectoria y Pasión",
-      desc: "Más de una década combinando danza contemporánea y disciplinas aéreas en escenarios internacionales.",
-    },
-    disciplines: {
-      title: "Especialidades",
-      silk: "Telas Aéreas",
-      hoop: "Aro Aéreo",
-      straps: "Cintas Aéreas",
-      bungee: "Bungee Dance",
-    },
-    contact: {
-      title: "Contactar para Eventos",
-      desc: "Disponibilidad para producciones teatrales, televisión, festivales y eventos corporativos de lujo.",
-      btn: "Enviar Solicitud",
-    },
-    footer: {
-      rights: "Todos los derechos reservados.",
-    },
-  },
+  en: { code: "EN", flag: "https://flagcdn.com/w40/gb.png", label: "Cambiar a Español" },
+  es: { code: "ES", flag: "https://flagcdn.com/w40/es.png", label: "เปลี่ยนเป็นภาษาไทย" },
   th: { code: "TH", flag: "https://flagcdn.com/w40/th.png", label: "Passa all'Italiano" },
 };
 
@@ -130,6 +90,41 @@ const translations = {
     formSubmit: "Send Message",
     footerRights: "All rights reserved.",
     footerQuote: "Suspended between sky and earth.",
+  },
+  es: {
+    sections: [
+      { id: "hero", label: "Inicio" },
+      { id: "about", label: "Sobre Mí" },
+      { id: "gallery", label: "Galería" },
+      { id: "contact", label: "Contacto" },
+    ],
+    linksLabel: "Enlaces",
+    businessSite: "Sitio Corporativo",
+    heroTitle: "Ligereza en Vuelo",
+    heroSubtitle: "Serena Franceri • Artista de Telas Aéreas",
+    aboutTitle: "Mi historia",
+    aboutP1:
+      "Para mí, las telas aéreas no son solo una disciplina deportiva, sino una forma de desafiar la gravedad y encontrar la libertad. Cada movimiento es una danza entre fuerza y gracia, un diálogo silencioso con el aire.",
+    aboutP2:
+      "Comencé este camino hace años buscando una forma de expresarme más allá de las palabras. Hoy la altura ya no me asusta; se ha convertido en mi escenario natural.",
+    statGrace: "Gracia",
+    statStrength: "Fuerza",
+    statPassion: "Pasión",
+    galleryTitle: "Galería",
+    galleryItem: "Figura",
+    contactTitle: "Contáctame",
+    contactIntro:
+      "¿Te interesan colaboraciones, talleres o simplemente charlar sobre la magia de las telas aéreas? Escríbeme.",
+    location: "Turín, Italia",
+    formName: "Nombre",
+    formNamePlaceholder: "Tu nombre",
+    formEmail: "Correo electrónico",
+    formEmailPlaceholder: "tu@correo.com",
+    formMessage: "Mensaje",
+    formMessagePlaceholder: "¿Cómo puedo ayudarte?",
+    formSubmit: "Enviar Mensaje",
+    footerRights: "Todos los derechos reservados.",
+    footerQuote: "Suspendida entre cielo y tierra.",
   },
   th: {
     sections: [
